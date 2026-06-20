@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Literal-path artifact from a misconfigured ${HOME} hook write
+${HOME}/
+
+# Editor/OS cruft
+*.swp
+Thumbs.db
