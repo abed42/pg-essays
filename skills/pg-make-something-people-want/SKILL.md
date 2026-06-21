@@ -1,83 +1,90 @@
 ---
 name: pg-make-something-people-want
 description: >
-  A planning principle for coding agents, from Paul Graham's "Make Something
-  People Want." Every item in a build plan must trace to a real, current
-  requirement or user need — cut speculative features, gold-plating, and
-  scope the user never asked for. Build the thing that's actually wanted, not the
-  comprehensive or clever version. USE WHEN planning a feature, scoping work,
-  deciding what to include in an implementation, or reviewing a plan for scope.
+  Paul Graham's perspective on what to build, from "Be Good" / "Startups in 13
+  Sentences" — not generic YAGNI scope-cutting, but his specific lens: make
+  something people WANT, where a few who love it beat many who like it, and every
+  feature must pass the disappointment test (would a real user be upset without
+  it?). Cut the "sitcom feature" that only sounds wanted. USE WHEN planning a
+  feature, scoping work, deciding what to include, or reviewing a plan for scope.
   Applies to the agent's own plan even when not explicitly requested.
 ---
 
 # PG: Make Something People Want (for builders)
 
-Source: Paul Graham — *Make Something People Want*, *Be Good*,
-*Startups in 13 Sentences* ("understand your users").
+Source: Paul Graham — *Be Good* / "Make something people want", *Startups in 13
+Sentences*, *How to Get Startup Ideas* (the "sitcom" idea).
 
-A **planning constraint**. When you scope a build, every step must earn its place
-by serving a real, current need. This counters a common coding-agent failure
-mode: **scope creep and gold-plating — adding features, options, and polish
-nobody asked for.**
+Adopt **PG's specific lens**, not generic YAGNI. Scope discipline says "don't
+build what you don't need." PG's cut is sharper and reorients the whole plan: build
+what people *want*, and orient around the few who would *love* it.
 
-## The principle
+## PG's perspective (lead with this)
 
-> Make something people want. Not something comprehensive, not something clever —
-> something wanted.
-
-For a builder: the plan should deliver exactly what the requirement needs, fully,
-and nothing speculative around it. Breadth nobody asked for is wasted work that
-also adds surface area to maintain and break.
+- **A few who love it beat many who like it.** "It's better to have 100 people who
+  love you than a million who sort of like you." Applied to a plan: orient the
+  whole build around the *one capability a real user would love* — and treat
+  everything else as suspect, even if it would be "used."
+- **The disappointment test, per feature.** For each item ask: *would a real user
+  be upset if this were missing?* If the honest answer is "meh," cut it. This is
+  sharper than YAGNI — it's not "do we technically need it," it's "does anyone
+  actually *want* it."
+- **Beware the sitcom feature.** The dangerous additions are the ones that *sound*
+  like good features — plausible, reasonable, the kind you'd reach for. They're
+  the feature-level version of the made-up startup idea: invented, not wanted.
+- **You learn wants by watching, not reasoning.** Don't pad a plan with features
+  you've *deduced* are wanted. Anything speculative is a guess — flag it as one.
+- **Be good.** The plan should genuinely serve the user, not impress.
 
 ## Apply this when planning
 
-- **Trace every step to a need.** Each plan item maps to a stated requirement or
-  a real user problem. If you can't name the need, cut the item.
-- **No speculative features.** Build what was asked. If you see a useful
-  addition, *propose* it — don't silently build it.
-- **Solve the user's real problem,** not the adjacent one that's more interesting
-  to implement.
-- **Core before periphery.** Make the central need work end-to-end and verify it
-  before adding any edge feature or polish.
+- Identify the **lovable core** — the thing a specific real user would be upset to
+  lose — and make the plan revolve around nailing it.
+- Run the **disappointment test on every item.** Keep the "upset-without-it" ones;
+  cut or flag the "meh" ones.
+- Mark every "this would be useful" addition as an **unvalidated guess**, not a
+  plan item. Propose; don't silently build.
+- Refuse to build for an imagined user. If you can't name who'd want it, it's a
+  sitcom feature.
 
 ## Plan review (STOP at each step and check)
 
-1. **Which requirement does this serve?** Name it. If none, cut the step.
-2. **Did they ask for this?** If you're adding scope, flag it for approval rather
-   than auto-building it.
-3. **Real problem or tangent?** Is this the user's actual problem, or one you find
-   more interesting?
-4. **Core working first?** Does the central need function end-to-end before I
-   spend effort on anything peripheral?
+1. **Who'd be upset without this?** Name them. If no one, cut or flag it.
+2. **Lovable core nailed first?** Is the plan organized around the thing a real
+   user would love — or spread thin to be comprehensive?
+3. **Sitcom feature?** Does this just *sound* like a good feature, or is it
+   actually wanted?
+4. **Guess or known?** Is this a deduced "useful" or a real, observed want?
 
 ## Pushback patterns (apply to your own plan)
 
-- "While I'm in here, I'll also add X" → **did they ask?** If not, propose it;
-  don't build it.
-- "It'd be nice to also handle Y" → **not unless it's a real current need.**
-  Nice-to-have is a v2 note, not a v1 plan item.
-- "Let me make it handle every case" → **build the case they have.** Generality
-  is its own scope creep.
+- "This would be a nice feature" → **would a real user be upset without it?** If
+  not, cut it.
+- "Let's be comprehensive" → **comprehensive = many who merely like it.** Pick the
+  few who'd *love* it and serve them fully.
+- "Obviously people will want X" → **that's a guess, and it sounds like a sitcom
+  feature.** Flag it; don't build on a deduction.
 
-## Red flags in a plan
+## Red flags
 
-- Features or options no requirement names.
-- Building breadth before the core need works and is verified.
-- "Nice to have" / "might as well" items in the plan.
-- Solving an interesting adjacent problem instead of the asked one.
+- Features no specific user would be upset to lose.
+- A plan spread across many "useful" items instead of nailing the lovable core.
+- "Sounds useful / might as well" additions treated as requirements.
+- Building for an imagined, unnamed user.
 
 ## When NOT to apply
 
-If an "extra" is genuinely required for correctness or safety of the core need
-(error handling, security, data integrity), it's not scope creep — it's part of
-the need. Distinguish necessary completeness from speculative breadth.
+Necessary completeness for the lovable core (its error handling, security, data
+integrity) is part of what people want, not scope creep. Cut speculative *breadth*,
+not the depth the core actually needs (pairs with `pg-schlep-blindness`).
 
 ## Anchor (PG)
 
 - "Make something people want."
 - "It's better to have 100 people who love you than a million who sort of like
-  you." — Builder: nail the real need fully; don't dilute effort into breadth no
-  one wants.
+  you."
+- The most common startup mistake is "to solve problems no one has" — the sitcom
+  idea, at feature scale.
 
 ---
 *Distilled from Paul Graham's essays ([paulgraham.com](https://www.paulgraham.com/articles.html)) for AI coding agents. Not affiliated with or endorsed by Paul Graham. Read the originals.*

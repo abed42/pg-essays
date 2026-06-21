@@ -1,85 +1,89 @@
 ---
 name: pg-always-working-code
 description: >
-  A build-process principle for coding agents, from Paul Graham's "Design and
-  Research" (Worse is Better). Always have working code — refine a running
-  prototype in small steps, run it early and often, never end in a broken state,
-  and never attempt a "Hail Mary" big-bang build. Also: solve the user's real
-  need, not the literal symptom. USE WHEN implementing anything, planning the
-  order of work, or tempted to write a large change before running it. Apply it
-  even when not explicitly asked.
+  Paul Graham's perspective on building software, from "Design and Research" —
+  not generic incrementalism, but his specific stance: "Worse is Better" (ship
+  the simpler working thing over the complete unbuilt one), morale is a design
+  input (a working trunk keeps the work good), a program is a pruned tree of
+  false starts, and you should pick tools you can refine the prototype INTO the
+  product. USE WHEN implementing anything, ordering the work, or choosing how to
+  approach a build. Applies even when not explicitly requested.
 ---
 
 # PG: Always Have Working Code (for builders)
 
 Source: Paul Graham — *Design and Research* ("Worse is Better"; "always have
-working code").
+working code"; morale; the prototype-into-product idea).
 
-A **process constraint**. PG: build by refining a working prototype, not by
-attempting the complete product in "one long touchdown pass" — the Hail Mary "is
-a recipe for disaster." The agent failure mode this counters: **writing a large
-change end-to-end on faith and only running it at the very end, so failures pile
-up undiagnosed.**
+Adopt **PG's specific perspective**, not generic incremental-delivery advice. The
+point isn't only "don't big-bang." It's a worldview about how good work actually
+gets made.
 
-## The principle
+## PG's perspective (lead with this)
 
-> Always have working code. Get the simplest end-to-end version running, then
-> refine it in small steps — each one leaving the system runnable.
+- **Worse is Better.** Prefer the simpler thing that *works now* over the
+  complete, "correct" thing that doesn't exist yet. When you're still learning
+  what to build, implementation simplicity beats interface completeness. Ship the
+  inferior-but-real version and let it teach you.
+- **Morale is a design input — not a soft extra.** "If you're bored when you're
+  drawing something, the drawing will look boring." Working code every hour
+  supplies the immediate reward that keeps the work *good*. A long broken stretch
+  doesn't just risk bugs; it rots the quality of everything you write in it.
+- **A program is a pruned tree of false starts.** Expect wrong turns. Judge the
+  *path*, not just the finished artifact. Don't plan as if you'll get it right on
+  the first pass — plan to iterate from something running.
+- **Refine the prototype into the product** (oil paint, not marble). Choose
+  tools/approaches where the first working version becomes the real thing, not a
+  throwaway you rebuild.
+- **Treat the disease, not the symptom** (the doctor). Solve the real need behind
+  the literal request, not the words.
 
-A program is "a pruned version of a tree that has had false starts branching off
-all over it." Expect false starts; keep the trunk working.
+## Apply this when building
 
-## Apply this when implementing
+- Get the smallest end-to-end thing *running first*; refine in small steps that
+  each leave it runnable. Run it early and often.
+- When choosing between "simpler and working" vs "complete and not yet working,"
+  take simpler-and-working — on purpose, not as a compromise.
+- Don't design for a first-pass-correct world. Leave room to be wrong and iterate.
 
-- **Keep it green.** Make incremental changes that each leave the build runnable.
-  Never sit in a broken state longer than necessary.
-- **Prototype, then refine.** Get the thinnest end-to-end thing working first;
-  improve it from there. Don't build the whole thing before testing any of it.
-- **Run it early and often.** Execute after small steps for immediate feedback —
-  don't write on faith and discover everything at the end.
-- **Solve the need, not the symptom.** Like a doctor: figure out what the request
-  is *actually* for and address that, rather than treating the literal words.
-- **Expect false starts.** Iterating toward the answer is normal; the working
-  trunk is what you protect.
+## Build review (STOP and check)
 
-## Process review (STOP and check)
-
-1. **Working code right now?** Or am I deep in a large, unrun change?
-2. **Smallest runnable version first?** Can I get something end-to-end working
-   before adding more?
-3. **Run it recently?** Or am I writing on faith and deferring all feedback?
-4. **Real need or literal ask?** Am I treating the symptom, or the actual problem
-   behind the request?
+1. **Working code right now?** Or am I in a long unrun stretch (low morale, high
+   risk)?
+2. **Worse-is-Better choice made?** Did I take the simpler working path over the
+   complete unbuilt one?
+3. **Refinable prototype?** Will this first version become the product, or am I
+   building a throwaway?
+4. **Real need or literal ask?** Am I treating the symptom or the disease?
 
 ## Pushback patterns (apply to yourself)
 
-- "I'll write it all, then test at the end" → **that's the Hail Mary — a recipe
-  for disaster.** Keep working code at every step.
-- "It should work" → **run it.** Don't ship on faith.
-- "They asked for exactly X" → **what's the need behind X?** Treat the disease,
-  not the symptom.
+- "I'll build it complete, then run it" → **Worse is Better: ship the simpler
+  working slice now.** Completeness you can't run is worth nothing yet.
+- "This rough version isn't good enough to commit" → **a working trunk is the
+  point.** Refine it; don't withhold it.
+- "They asked for exactly X" → **treat the disease.** What's X actually for?
 
 ## Red flags
 
-- Large changes written before anything is run.
-- Long stretches of work with no execution.
-- Leaving the build broken between steps.
+- Long unrun changes; build-then-test-at-the-end.
+- Choosing the "more correct/complete" design that delays a running version.
+- A throwaway prototype you plan to rebuild from scratch.
 - Literal instruction-following that misses the real goal.
-- Test/run deferred to the very end ("big-bang" integration).
 
 ## When NOT to over-apply
 
-"Always working" doesn't forbid brief, contained spikes where you knowingly break
-something to explore — just keep them short and return to a working state quickly.
-The rule is: don't *drift* into a long broken stretch by default.
+Worse-is-Better defers *premature completeness*, not correctness that the task
+genuinely requires now (safety, data integrity). Short, contained spikes that
+break things to explore are fine — return to working quickly.
 
 ## Anchor (PG)
 
 - "Always have working code."
-- "Get a prototype in front of users as soon as possible" (Worse is Better);
-  the Hail Mary "is a recipe for disaster."
-- "You have to figure out what's actually wrong with [the patient], and treat
-  that." — solve the need, not the literal symptom.
+- "Worse is Better" — get a working prototype out, refine it; the Hail Mary "is a
+  recipe for disaster."
+- "If you're bored when you're drawing something, the drawing will look boring."
+- "A painting is never finished, you just stop working on it."
 
 ---
 *Distilled from Paul Graham's essays ([paulgraham.com](https://www.paulgraham.com/articles.html)) for AI coding agents. Not affiliated with or endorsed by Paul Graham. Read the originals.*

@@ -1,75 +1,89 @@
 ---
 name: pg-branding
 description: >
-  A priorities principle for coding agents, from Paul Graham's "The Brand Age" —
-  the contrarian, PG-faithful take: don't spend effort on brand, positioning, or
-  marketing polish over substance. Brand is what's left when the real differences
-  disappear; invest in the working thing that solves the problem and let any
-  reputation be a byproduct of being good. USE WHEN building a product/landing/
-  marketing, tempted to polish positioning or visual brand before the substance
-  works, or deciding where to spend effort. Apply it even when not explicitly asked.
+  Paul Graham's perspective on brand, from "The Brand Age" — not generic
+  "substance before brand," but his sharp, contrarian claims: brand is what's
+  left when the substantive differences between products disappear; branding and
+  good design are OPPOSED (design converges on the right answer, brand must stay
+  distinctive); brand-driven markets are corrosive; so stay away from brand and
+  follow the problems instead. USE WHEN building a product/landing/marketing,
+  deciding where to spend effort, or asked to make something "stand out." Applies
+  even when not explicitly requested.
 ---
 
-# PG: Branding — Substance Over Brand (for builders)
+# PG: Brand — Follow the Problems (for builders)
 
 Source: Paul Graham — *The Brand Age*.
 
-A **priorities constraint**, and a deliberately contrarian one. PG: "Brand is
-what's left when the substantive differences between products disappear," branding
-and good design are *opposed*, and the lesson is to "stay away from brand…follow
-the problems." The agent failure mode this counters: **polishing brand,
-positioning, copy, and landing pages before the underlying thing actually works.**
+Adopt **PG's contrarian stance**, not the mild "do substance before brand" that
+any model already says. PG's view of brand is much sharper, and it changes what
+you refuse to do.
 
-## The principle
+## PG's perspective (lead with this)
 
-> Don't manufacture distinctiveness. Build the real thing well. Brand, if it
-> comes, is a byproduct of being good — not something to chase ahead of substance.
+- **Brand is what's left when the substantive differences between products
+  disappear.** It's the residue of *lost* substance — not something to build
+  toward.
+- **Branding and good design are opposed.** Good design, like math, converges on
+  the *right answer* (centripetal). Brand must stay *distinctive* (centrifugal).
+  You cannot maximize both — so an agent chasing a "distinctive brand feel" is
+  actively working against good design.
+- **Brand-driven markets are corrosive.** They lack real constraints and lean on
+  "the worst features of human psychology." Don't aim to build something whose
+  value *is* its brand.
+- **Once brand dominates, quality degrades into a mere threshold** (good-enough,
+  not excellent). That's a trap to avoid, not a model to copy.
+- **Follow the problems.** Spend effort where real constraints exist — that's
+  where good work lives, and where any durable reputation is *earned*. Reputation
+  is a byproduct of being right, never manufactured.
 
-## Apply this when building product/marketing
+## Apply this when building
 
-- **Substance before brand.** The working product that solves the problem comes
-  first; positioning and visual brand come after, if at all.
-- **Follow the problems.** Spend effort where there's a real, hard problem to
-  solve. That's where value — and any genuine reputation — comes from.
-- **Don't fake distinctiveness.** Stand out by being better, not by inventing a
-  unique-sounding angle around a thing that isn't done.
-- **Quality is a real bar, not a threshold to fake.** Be good; don't do the
-  minimum and dress it up.
+- Put effort into the **substance** — the working thing that solves a real,
+  constrained problem. Defer positioning, landing pages, logos, taglines.
+- When asked to make something **"stand out,"** make it *better* (more correct,
+  more useful), not differently-packaged. Refuse to manufacture distinctiveness.
+- Be suspicious of any plan whose value lives in *presentation* rather than in
+  what the thing does.
 
 ## Priorities review (STOP and check)
 
-1. **Substance done?** Am I polishing brand/positioning/copy while the core
-   product still doesn't work well?
-2. **Where's the effort going** — to the real problem, or to looking good?
-3. **Manufacturing distinctiveness** instead of just being better?
+1. **Substance or residue?** Am I building real differences, or polishing the
+   brand-residue that's left when there are none?
+2. **Distinctiveness vs. right answer?** Am I chasing a distinctive look at the
+   cost of the correct design?
+3. **Following the problems?** Is the effort going where real constraints are?
+4. **Manufacturing reputation?** Reputation is earned by being good — not staged.
 
 ## Pushback patterns (apply to yourself)
 
-- "Let's nail the branding/landing page first" → **is the product good yet?**
-  Substance before brand.
-- "We need to stand out" → **stand out by being better,** not by positioning
-  theater.
-- "Add testimonials / a slick hero / a tagline" → **does the thing work?** Polish
-  follows substance.
+- "Make it stand out / give it a distinctive brand" → **distinctiveness fights
+  correctness.** Stand out by being *right*, not by being different.
+- "We need a brand" → **brand is what's left when substance is gone.** Build
+  substance; the only durable reputation is earned.
+- "Polish the landing page / logo first" → **follow the problems first.** Brand
+  markets are corrosive; don't start there.
 
 ## Red flags
 
-- Marketing, landing-page, or brand polish ahead of working substance.
-- Chasing a distinctive angle over correctness and usefulness.
-- Effort spent positioning a product that doesn't yet do its job.
+- Effort on positioning/landing/logo before the substance works.
+- Chasing a distinctive aesthetic at the expense of the correct design.
+- A plan whose value is presentation, not capability.
+- "Differentiation" treated as a goal in itself.
 
 ## When NOT to over-apply
 
-This is about *priority and proportion*, not "never do any presentation." Once the
-substance is real, clear communication of it is fine — just don't let brand work
-substitute for, or precede, the real thing.
+This is about *priority and proportion*. Once the substance is real, communicating
+it clearly is fine — that's not brand-chasing. The ban is on letting brand
+*precede* or *substitute for* the real thing.
 
 ## Anchor (PG)
 
 - "Brand is what's left when the substantive differences between products
   disappear."
-- "Stay away from brand…follow the problems." — Builder: invest in substance;
-  let reputation be earned, not manufactured.
+- "Branding by definition has to be distinctive. But good design... seeks the
+  right answer, and right answers tend to converge."
+- "Stay away from brand... follow the problems."
 
 ---
 *Distilled from Paul Graham's essays ([paulgraham.com](https://www.paulgraham.com/articles.html)) for AI coding agents. Not affiliated with or endorsed by Paul Graham. Read the originals.*
