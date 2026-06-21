@@ -1,7 +1,7 @@
 # pg-essays
 
 <p align="center">
-  <img src="assets/hero.png" alt="pg-essays" width="100%" />
+  <img src="assets/hero.svg" alt="pg-essays — hackers & painters" width="100%" />
 </p>
 
 **Paul Graham's build philosophy, packaged as Agent Skills for coding agents.**
