@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body { width: 360px; font: 14px/1.5 system-ui, sans-serif; margin: 0; padding: 12px; }
+    h1 { font-size: 14px; margin: 0 0 8px; }
+    button { padding: 6px 12px; cursor: pointer; }
+    input { width: 100%; box-sizing: border-box; padding: 4px; margin: 4px 0; }
+    #out { white-space: pre-wrap; margin-top: 10px; max-height: 360px; overflow-y: auto; }
+    .muted { color: #888; }
+    .row { display: flex; gap: 8px; align-items: center; }
+  </style>
+</head>
+<body>
+  <h1>Web Summarizer</h1>
+  <details>
+    <summary class="muted">Settings (API key)</summary>
+    <input id="key" type="password" placeholder="OpenAI API key (sk-...)" />
+    <button id="save">Save key</button>
+  </details>
+  <div class="row" style="margin-top:8px">
+    <button id="go">Summarize this page</button>
+  </div>
+  <div id="out" class="muted">Click summarize to begin.</div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,5 +1,9 @@
 # pg-essays
 
+<p align="center">
+  <img src="assets/hero.png" alt="pg-essays" width="100%" />
+</p>
+
 **Paul Graham's build philosophy, packaged as Agent Skills for coding agents.**
 
 > Distilled from the essays of **Paul Graham** ([paulgraham.com](https://www.paulgraham.com/articles.html)).
