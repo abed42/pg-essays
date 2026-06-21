@@ -7,7 +7,7 @@ description: >
   cleverness or impressiveness. Name things accurately, let comments explain why
   not what, and cut filler and dead code. USE WHEN naming things, writing
   comments or docstrings, writing commit messages / PR descriptions / docs, or
-  reviewing code for readability. Apply it to your own output even when not
+  reviewing code for readability. Applies to the agent's own output even when not
   explicitly asked.
 ---
 

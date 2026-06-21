@@ -5,10 +5,9 @@ description: >
   actually want it (usage, retention, payment — not opinions), the "very
   disappointed" test, a core of users who love it vs many who merely like it,
   whether the team talks to users and does unscalable things to delight them,
-  and ruthless simplicity. USE WHEN the user asks you to review, critique, or
-  give feedback on a product, app, feature, or MVP, or asks "is my product any
-  good / does this have product-market fit." Apply it even when PG is not
-  mentioned by name.
+  and ruthless simplicity. USE WHEN asked to review, critique, or give feedback
+  on a product, app, feature, or MVP, or asked whether a product is any good or
+  has product-market fit. Applies even when PG is not mentioned by name.
 ---
 
 # PG: Product Review

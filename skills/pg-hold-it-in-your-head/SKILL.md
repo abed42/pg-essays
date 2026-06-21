@@ -2,12 +2,12 @@
 name: pg-hold-it-in-your-head
 description: >
   A design principle for coding agents, from Paul Graham's "Holding a Program in
-  One's Head." You write good code only when you can hold the whole program in
-  your head, so keep the system small, comprehensible, and low-surface — fewer
+  One's Head." Good code is only possible when the whole program fits in one
+  head, so it keeps the system small, comprehensible, and low-surface — fewer
   concepts, less state, clear boundaries, localized logic — and refactor for
   understandability as it grows. USE WHEN structuring code, adding to a codebase,
   setting module boundaries, refactoring, or deciding how to organize an
-  implementation. Apply it even when not explicitly asked.
+  implementation. Applies even when not explicitly requested.
 ---
 
 # PG: Hold It in Your Head (for builders)

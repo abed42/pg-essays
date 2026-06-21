@@ -7,7 +7,7 @@ description: >
   scope the user never asked for. Build the thing that's actually wanted, not the
   comprehensive or clever version. USE WHEN planning a feature, scoping work,
   deciding what to include in an implementation, or reviewing a plan for scope.
-  Apply it to your own plan even when not explicitly asked.
+  Applies to the agent's own plan even when not explicitly requested.
 ---
 
 # PG: Make Something People Want (for builders)

@@ -7,7 +7,7 @@ description: >
   defer scale, abstraction, and infrastructure until a concrete current
   requirement forces them. USE WHEN planning a feature, designing an MVP,
   choosing an architecture, deciding what to build first, or scoping any
-  implementation task. Apply it to your own plan even when not explicitly asked.
+  implementation task. Applies to the agent's own plan even when not explicitly requested.
 ---
 
 # PG: Do Things That Don't Scale (for builders)

@@ -7,7 +7,7 @@ description: >
   wiring, and the unglamorous last 20%. Plan it explicitly and finish it; don't
   stop at the happy path or leave the boring parts as TODOs. USE WHEN planning or
   implementing a feature, writing code that can fail, or scoping the work to
-  "done." Apply it to your own plan even when not explicitly asked.
+  "done." Applies to the agent's own plan even when not explicitly asked.
 ---
 
 # PG: Schlep Blindness (for builders)

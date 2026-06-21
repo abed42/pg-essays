@@ -7,7 +7,7 @@ description: >
   dependencies. Prefer deleting code to adding it, and the obvious version to the
   clever one. USE WHEN designing an architecture, choosing an approach, planning
   an implementation, refactoring, or deciding between a simple and a flexible
-  solution. Apply it to your own design even when not explicitly asked.
+  solution. Applies to the agent's own design even when not explicitly requested.
 ---
 
 # PG: Taste for Makers (for builders)
