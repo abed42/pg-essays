@@ -5,14 +5,14 @@
     "email": "abedhamami42@gmail.com"
   },
   "metadata": {
-    "description": "Paul Graham's thinking, packaged as Agent Skills — 8 behavior skills distilled from his essays.",
+    "description": "Paul Graham's build philosophy as coding-agent skills — 12 skills distilled from his essays that shape how an agent plans and builds.",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "pg-essays",
       "source": "./",
-      "description": "Make your agents reason like Paul Graham: startup ideas, great work, independent thinking, writing, building, fundraising, founders, and wealth."
+      "description": "Make your coding agent build like Paul Graham: review ideas, defer scale, keep working code, do the schlep, simplest design, hold it in your head, and ship."
     }
   ]
 }

@@ -89,3 +89,6 @@ makes them love it.
 - "It's better to have 100 people who love you than a million who sort of like you."
 - "The most common unscalable thing founders have to do at the start is to
   recruit users manually" — and then delight them.
+
+---
+*Distilled from Paul Graham's essays ([paulgraham.com](https://www.paulgraham.com/articles.html)) for AI coding agents. Not affiliated with or endorsed by Paul Graham. Read the originals.*

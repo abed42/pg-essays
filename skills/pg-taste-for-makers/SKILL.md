@@ -80,3 +80,6 @@ correctness for fewer lines.
 - "Good design is simple."
 - "Succinctness is power."
 - "Simple words, short sentences" — the same instinct, applied to code.
+
+---
+*Distilled from Paul Graham's essays ([paulgraham.com](https://www.paulgraham.com/articles.html)) for AI coding agents. Not affiliated with or endorsed by Paul Graham. Read the originals.*

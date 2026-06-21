@@ -92,3 +92,6 @@ Name the current requirement that justifies it.
   recruit users manually." — Builder's translation: do the manual thing first;
   let real usage pull the abstraction out of you.
 - "Launch fast and iterate."
+
+---
+*Distilled from Paul Graham's essays ([paulgraham.com](https://www.paulgraham.com/articles.html)) for AI coding agents. Not affiliated with or endorsed by Paul Graham. Read the originals.*

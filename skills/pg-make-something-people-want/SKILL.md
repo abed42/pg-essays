@@ -78,3 +78,6 @@ the need. Distinguish necessary completeness from speculative breadth.
 - "It's better to have 100 people who love you than a million who sort of like
   you." — Builder: nail the real need fully; don't dilute effort into breadth no
   one wants.
+
+---
+*Distilled from Paul Graham's essays ([paulgraham.com](https://www.paulgraham.com/articles.html)) for AI coding agents. Not affiliated with or endorsed by Paul Graham. Read the originals.*

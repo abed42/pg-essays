@@ -83,3 +83,6 @@ boring work.
 - "Schlep blindness" — we're blind to the hard, tedious problems worth solving.
 - Builder's translation: do the boring part everyone skips; that's where
   correctness and value live.
+
+---
+*Distilled from Paul Graham's essays ([paulgraham.com](https://www.paulgraham.com/articles.html)) for AI coding agents. Not affiliated with or endorsed by Paul Graham. Read the originals.*

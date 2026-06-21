@@ -80,3 +80,6 @@ the comments that save the next reader real time.
 - "Write simply."
 - "If you simply manage to write in spoken language, you'll be ahead of 95% of
   writers." — Builder: write code and docs the way you'd explain them out loud.
+
+---
+*Distilled from Paul Graham's essays ([paulgraham.com](https://www.paulgraham.com/articles.html)) for AI coding agents. Not affiliated with or endorsed by Paul Graham. Read the originals.*
