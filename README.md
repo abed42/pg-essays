@@ -19,8 +19,8 @@ complete, more honest. Each loads only when the task calls for it.
 ## Install
 
 ```bash
-# via skills.sh (replace with your GitHub owner)
-npx skills add <owner>/pg-essays
+# via skills.sh
+npx skills add abed42/pg-essays
 
 # or copy the skills straight into a Claude Code / Agent SDK skills dir
 cp -r skills/pg-* ~/.claude/skills/
