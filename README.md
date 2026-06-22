@@ -18,12 +18,24 @@ complete, more honest. Each loads only when the task calls for it.
 
 ## Install
 
-```bash
-# via skills.sh
-npx skills add abed42/pg-essays
+### Option 1 — skills.sh (works with Claude Code, Cursor, Codex + 17 more agents)
 
-# or copy the skills straight into a Claude Code / Agent SDK skills dir
-cp -r skills/pg-* ~/.claude/skills/
+```bash
+npx skills add abed42/pg-essays
+```
+
+### Option 2 — Claude Code plugin marketplace
+
+```bash
+/plugin marketplace add abed42/pg-essays
+/plugin install pg-essays@pg-essays
+```
+
+### Option 3 — clone & copy
+
+```bash
+git clone https://github.com/abed42/pg-essays
+cp -r pg-essays/skills/pg-* ~/.claude/skills/
 ```
 
 ## The 12 skills
