@@ -28,12 +28,6 @@ cp -r skills/pg-* ~/.claude/skills/
 
 ## The 12 skills
 
-**Judgment — what to build**
-| Skill | What it does to the agent |
-|---|---|
-| `pg-idea-review` | Pressure-tests whether an idea/feature is worth building before coding it |
-| `pg-product-review` | Reviews whether what's built is actually wanted (demand, not vanity metrics) |
-
 **Scope & process — how to build**
 | Skill | What it does to the agent |
 |---|---|
@@ -41,6 +35,12 @@ cp -r skills/pg-* ~/.claude/skills/
 | `pg-make-something-people-want` | Cuts speculative scope & gold-plating → builds only what's needed |
 | `pg-always-working-code` | Keeps the build green; refines a running prototype; no Hail Mary big-bangs |
 | `pg-schlep-blindness` | Won't skip the boring correctness work — errors, edge cases, the last 20% |
+
+**Judgment — what to build**
+| Skill | What it does to the agent |
+|---|---|
+| `pg-idea-review` | Pressure-tests whether an idea/feature is worth building before coding it |
+| `pg-product-review` | Reviews whether what's built is actually wanted (demand, not vanity metrics) |
 
 **Design — how to keep it good**
 | Skill | What it does to the agent |
